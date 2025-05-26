@@ -6,7 +6,7 @@ import pandas as pd
 import io
 import uuid
 
-# Initialize the Gemini model (keep this outside the endpoint)
+# Initialize the Gemini model
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash",
     google_api_key="AIzaSyBBifyF9OMufQIk3YNNMWuPVNQJXShYwF4",
